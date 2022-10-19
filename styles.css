@@ -13,5 +13,5 @@
 
 .img:hover{
   background-image: url(labios-rojos-individual-1-300x300.jpg);
-  transition: 100ms;
+  transition: 1000ms;
 }
