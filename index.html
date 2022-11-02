@@ -1,15 +1,241 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="Vistaport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" >
+  <link href="css/estilo.css" >
+
   <title>Dulceria</title>
 </head>
 <body>
+<!------<h1>Aqui estuvo Omar</h1>------>
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">Acerca de Nosotros</h4>
+          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Realiza tus Pedidos</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Twitter</a></li>
+            <li><a href="#" class="text-white">Like on Facebook</a></li>
+            <li><a href="#" class="text-white">Email me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-patch-check" VistaBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+          <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z"/>
+        </svg>
+        
+        <strong>&nbspDulceria - Angelitos</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
 
-  <div class="img"></div>
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Catalogo de Productos</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Busqueda</a>
+          <a href="#" class="btn btn-secondary my-2">Compra</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2021/10/borrachitos-1170x655.jpg" class="img-fluid" alt="Responsive image">
+            <!---<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>---->
+                                                    
+            <div class="card-body">
+              <p class="card-text">Descripcion puntual del producto</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Pedido</button>
+                </div>
+                <small class="text-muted"> Cantidades Disponibles : 9</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://www.allianz-assistance.es/blog/viajes/la-vuelta-al-mundo-en-cinco-dulces/_jcr_content/root/parsys/wrapper_copy_copy/wrapper/grid_2_columnlayout__855194800/grid-0-par/image.img.82.640.jpeg/1559742268552/la-vuelta-al-mundo-en-5-dulces.jpeg" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Descripcion puntual del producto</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Pedido</button>
+                </div>
+                <small class="text-muted">Cantidades Disponibles : 9</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://i.ytimg.com/vi/SCHszIxCYfg/maxresdefault.jpg" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Descripcion puntual del producto</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Pedido</button>
+                </div>
+                <small class="text-muted">Cantidades Disponibles : 9</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://www.institucionalcolombia.com/wp-content/uploads/2021/04/dulces_colombianos.jpg" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Descripcion puntual del producto</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Pedido</button>
+                </div>
+                <small class="text-muted">Cantidades Disponibles : 9</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://www.ngenespanol.com/wp-content/uploads/2018/08/Prueba-los-mejores-dulces-t%C3%ADpicos-de-Puebla-1280x720.jpg" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Descripcion puntual del producto</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Pedido</button>
+                </div>
+                <small class="text-muted">Cantidades Disponibles : 9</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://t2.rg.ltmcdn.com/es/posts/4/9/0/pinchos_dulces_para_ninos_60094_orig.jpg" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Descripcion puntual del producto</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Pedido</button>
+                </div>
+                <small class="text-muted">Cantidades Disponibles : 9</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://okdiario.com/img/2018/03/19/los-mejores-dulces-mexicanos-que-debes-probar-655x368.jpg" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Descripcion puntual del producto</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Pedido</button>
+                </div>
+                <small class="text-muted">Cantidades Disponibles : 9</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://i.blogs.es/a89455/dulce_navidad/450_1000.jpg" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Descripcion puntual del producto</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Pedido</button>
+                </div>
+                <small class="text-muted">Cantidades Disponibles : 9</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://www.elcomercio.com/wp-content/uploads/2022/10/Halloween-dulces-ninos.jpg" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Descripcion puntual del producto</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Pedido</button>
+                </div>
+                <small class="text-muted">Cantidades Disponibles : 9</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+  </div>
+</footer>  
+
+
+
+ 
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 
 
 </body>
